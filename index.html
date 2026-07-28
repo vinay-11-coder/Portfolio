@@ -1,0 +1,2901 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Pankaj | Freelance Video Editor & Animator — Hire Me</title>
+    <meta name="description"
+        content="Hire Vinay Pankaj — Freelance Video Editor, 2D Animator & Motion Graphics Designer. Professional editing for YouTube, Reels, ads & more. Fast turnaround, affordable pricing.">
+    <meta property="og:title" content="Vinay Pankaj | Freelance Video Editor & Animator">
+    <meta property="og:description"
+        content="Professional freelance video editing, 2D animation & motion graphics. Fast turnaround, affordable pricing.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="C58C4F6E-1249-476E-8AA7-8A9E8D0D42AB.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vinay Pankaj | Freelance Video Editor & Animator">
+    <meta name="twitter:description" content="Professional freelance video editing, 2D animation & motion graphics.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        /* ============================================
+           DESIGN TOKENS — LIGHT THEME
+           ============================================ */
+        :root,
+        [data-theme="light"] {
+            --bg-primary: #FAFAF9;
+            --bg-secondary: #FFFFFF;
+            --bg-card: #FFFFFF;
+            --bg-card-hover: #FFF7ED;
+            --bg-nav: rgba(255, 255, 255, 0.85);
+            --bg-mobile-nav: rgba(255, 255, 255, 0.98);
+
+            --text-primary: #1A1A1A;
+            --text-secondary: #6B7280;
+            --text-muted: #9CA3AF;
+            --text-inverse: #FFFFFF;
+
+            --accent-start: #F97316;
+            --accent-mid: #EA580C;
+            --accent-end: #DC2626;
+            --accent-gradient: linear-gradient(135deg, #F97316, #EA580C, #DC2626);
+            --accent-gradient-soft: linear-gradient(135deg, #FFEDD5, #FED7AA, #FECACA);
+            --accent-glow: rgba(249, 115, 22, 0.15);
+
+            --border-light: #F3F4F6;
+            --border-medium: #E5E7EB;
+            --border-accent: rgba(249, 115, 22, 0.2);
+
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.08);
+            --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.1);
+            --shadow-accent: 0 8px 30px rgba(249, 115, 22, 0.15);
+
+            --phone-body: #1A1A1A;
+            --phone-bezel: #333;
+            --phone-shadow: 0 30px 80px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05);
+            --phone-reflection: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, transparent 50%);
+
+            --badge-bg: #F0FDF4;
+            --badge-border: #BBF7D0;
+            --badge-text: #16A34A;
+            --badge-dot: #22C55E;
+
+            --blob-1: #FED7AA;
+            --blob-2: #FECACA;
+
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+            --radius-full: 9999px;
+        }
+
+        /* ============================================
+           DESIGN TOKENS — DARK THEME
+           ============================================ */
+        [data-theme="dark"] {
+            --bg-primary: #0B0D10;
+            --bg-secondary: #12151A;
+            --bg-card: #161921;
+            --bg-card-hover: #1C1F28;
+            --bg-nav: rgba(11, 13, 16, 0.88);
+            --bg-mobile-nav: rgba(11, 13, 16, 0.98);
+
+            --text-primary: #F1F5F9;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --text-inverse: #0B0D10;
+
+            --accent-start: #3B82F6;
+            --accent-mid: #2563EB;
+            --accent-end: #1D4ED8;
+            --accent-gradient: linear-gradient(135deg, #3B82F6, #2563EB, #1D4ED8);
+            --accent-gradient-soft: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(37, 99, 235, 0.1), rgba(29, 78, 216, 0.08));
+
+            --border-light: #1E2330;
+            --border-medium: #2A3040;
+            --border-accent: rgba(59, 130, 246, 0.25);
+
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+            --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.35);
+            --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.4);
+            --shadow-accent: 0 8px 30px rgba(59, 130, 246, 0.2);
+
+            --phone-body: #000;
+            --phone-bezel: #222;
+            --phone-shadow: 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 60px rgba(59, 130, 246, 0.08);
+            --phone-reflection: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+
+            --badge-bg: rgba(59, 130, 246, 0.1);
+            --badge-border: rgba(59, 130, 246, 0.25);
+            --badge-text: #60A5FA;
+            --badge-dot: #60A5FA;
+
+            --blob-1: rgba(59, 130, 246, 0.12);
+            --blob-2: rgba(37, 99, 235, 0.08);
+        }
+
+        /* ============================================
+           RESET & BASE
+           ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            min-height: 100vh;
+            cursor: default;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            transition: background 0.4s ease, color 0.4s ease;
+        }
+
+        /* ============================================
+           PAGE LOADER
+           ============================================ */
+        .page-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: var(--bg-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+        }
+
+        .page-loader.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        .loader-logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: loaderPulse 1.5s ease infinite;
+        }
+
+        .loader-bar {
+            width: 120px;
+            height: 3px;
+            background: var(--border-light);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .loader-bar::after {
+            content: '';
+            display: block;
+            width: 40%;
+            height: 100%;
+            background: var(--accent-gradient);
+            border-radius: 3px;
+            animation: loaderSlide 1s ease infinite;
+        }
+
+        @keyframes loaderPulse {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.6;
+                transform: scale(0.97);
+            }
+        }
+
+        @keyframes loaderSlide {
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(400%);
+            }
+        }
+
+        /* ============================================
+           SCROLL PROGRESS BAR
+           ============================================ */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: var(--accent-gradient);
+            z-index: 10000;
+            transition: width 0.05s linear;
+        }
+
+        /* ============================================
+           THEME TOGGLE
+           ============================================ */
+        .theme-toggle {
+            width: 44px;
+            height: 24px;
+            border-radius: 12px;
+            background: var(--border-medium);
+            border: none;
+            cursor: pointer;
+            position: relative;
+            transition: background 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .theme-toggle::after {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            top: 3px;
+            left: 3px;
+            background: white;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        [data-theme="dark"] .theme-toggle {
+            background: var(--accent-start);
+        }
+
+        [data-theme="dark"] .theme-toggle::after {
+            transform: translateX(20px);
+            background: #0B0D10;
+        }
+
+        .theme-toggle-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .theme-icon {
+            width: 16px;
+            height: 16px;
+            color: var(--text-muted);
+            transition: color 0.3s;
+        }
+
+        .theme-icon-sun {
+            display: block;
+        }
+
+        .theme-icon-moon {
+            display: none;
+        }
+
+        [data-theme="dark"] .theme-icon-sun {
+            display: none;
+        }
+
+        [data-theme="dark"] .theme-icon-moon {
+            display: block;
+        }
+
+        /* ============================================
+           NAVIGATION
+           ============================================ */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: var(--bg-nav);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+        }
+
+        .nav-brand-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            background: var(--accent-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 1rem;
+        }
+
+        .nav-brand-text {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            letter-spacing: -0.3px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-gradient);
+            transition: width 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-cta {
+            padding: 0.55rem 1.4rem;
+            background: var(--text-primary);
+            color: var(--text-inverse);
+            border-radius: var(--radius-full);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        [data-theme="dark"] .nav-cta {
+            background: var(--accent-start);
+            color: white;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 1001;
+            padding: 5px;
+            background: none;
+            border: none;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: var(--text-primary);
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 999;
+            background: var(--bg-mobile-nav);
+            backdrop-filter: blur(30px);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2.5rem;
+            list-style: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+        }
+
+        .mobile-nav.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .mobile-nav a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 1.8rem;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+
+        .mobile-nav a:hover {
+            color: var(--accent-start);
+        }
+
+        /* ============================================
+           HERO SECTION
+           ============================================ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 7rem 2rem 4rem;
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: visible;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-left {
+            z-index: 2;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 1rem;
+            background: var(--badge-bg);
+            border: 1px solid var(--badge-border);
+            border-radius: var(--radius-full);
+            font-size: 0.8rem;
+            color: var(--badge-text);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: var(--badge-dot);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+            flex-shrink: 0;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.3);
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 3.8rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.2rem;
+            letter-spacing: -1.5px;
+            color: var(--text-primary);
+        }
+
+        .hero h1 .gradient-text {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-desc {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 480px;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+
+        .btn {
+            padding: 0.75rem 1.8rem;
+            border-radius: var(--radius-full);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: var(--text-inverse);
+            box-shadow: var(--shadow-md);
+        }
+
+        [data-theme="dark"] .btn-primary {
+            background: var(--accent-start);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 1.5px solid var(--border-medium);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text-primary);
+            background: var(--bg-secondary);
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        .hero-stat-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            line-height: 1.2;
+        }
+
+        .hero-stat-number span {
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-stat-label {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-top: 0.15rem;
+        }
+
+        /* ============================================
+           3D PHONE MOCKUP
+           ============================================ */
+        .hero-right {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+            perspective: 1200px;
+            min-height: 580px;
+        }
+
+        .phone-3d-scene {
+            position: relative;
+            transform-style: preserve-3d;
+            width: 260px;
+            height: 530px;
+            transition: transform 0.08s linear;
+            transform: rotateY(-8deg) rotateX(4deg);
+            will-change: transform;
+        }
+
+
+
+        .phone-body {
+            position: absolute;
+            inset: 0;
+            background: var(--phone-body);
+            border-radius: 42px;
+            box-shadow: var(--phone-shadow);
+            border: 2px solid var(--phone-bezel);
+            overflow: hidden;
+            transform-style: preserve-3d;
+        }
+
+        /* Phone side thickness (3D depth) */
+        .phone-body::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 42px;
+            background: var(--phone-reflection);
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        .phone-body::after {
+            content: '';
+            position: absolute;
+            top: 2%;
+            bottom: 2%;
+            right: -4px;
+            width: 4px;
+            background: linear-gradient(180deg, #444, #222, #444);
+            border-radius: 0 4px 4px 0;
+            transform: rotateY(-90deg);
+            transform-origin: left center;
+        }
+
+        /* Side buttons */
+        .phone-btn-left {
+            position: absolute;
+            left: -3px;
+            top: 120px;
+            width: 3px;
+            height: 30px;
+            background: var(--phone-bezel);
+            border-radius: 3px 0 0 3px;
+            z-index: 4;
+        }
+
+        .phone-btn-left-2 {
+            position: absolute;
+            left: -3px;
+            top: 170px;
+            width: 3px;
+            height: 55px;
+            background: var(--phone-bezel);
+            border-radius: 3px 0 0 3px;
+            z-index: 4;
+        }
+
+        .phone-btn-left-3 {
+            position: absolute;
+            left: -3px;
+            top: 240px;
+            width: 3px;
+            height: 55px;
+            background: var(--phone-bezel);
+            border-radius: 3px 0 0 3px;
+            z-index: 4;
+        }
+
+        .phone-btn-right {
+            position: absolute;
+            right: -3px;
+            top: 180px;
+            width: 3px;
+            height: 70px;
+            background: var(--phone-bezel);
+            border-radius: 0 3px 3px 0;
+            z-index: 4;
+        }
+
+        /* Dynamic Island */
+        .phone-dynamic-island {
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 28px;
+            background: #000;
+            border-radius: 20px;
+            z-index: 6;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Screen area */
+        .phone-screen-wrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 40px;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .phone-screen-wrap iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            pointer-events: none;
+        }
+
+        .phone-screen-wrap img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: top center;
+            display: block;
+            transition: transform 0.3s ease-out;
+        }
+
+        /* Hide theme-specific phone images */
+        .phone-img-dark { display: none; }
+        .phone-img-light { display: block; }
+        [data-theme="dark"] .phone-img-dark { display: block; }
+        [data-theme="dark"] .phone-img-light { display: none; }
+
+        /* Home indicator */
+        .phone-home-bar {
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 4px;
+            z-index: 6;
+        }
+
+        /* Phone radial glow — accent colored */
+        .phone-glow {
+            position: absolute;
+            inset: -80px;
+            border-radius: 80px;
+            background: radial-gradient(ellipse at center, var(--accent-start) 0%, rgba(249, 115, 22, 0.08) 40%, transparent 70%);
+            opacity: 0.35;
+            z-index: -1;
+            animation: phoneGlow 4s ease-in-out infinite alternate;
+            pointer-events: none;
+            filter: blur(20px);
+        }
+
+        [data-theme="dark"] .phone-glow {
+            background: radial-gradient(ellipse at center, var(--accent-start) 0%, rgba(59, 130, 246, 0.1) 40%, transparent 70%);
+            opacity: 0.4;
+        }
+
+        @keyframes phoneGlow {
+            0% {
+                opacity: 0.25;
+                transform: scale(0.95);
+            }
+
+            100% {
+                opacity: 0.45;
+                transform: scale(1.08);
+            }
+        }
+
+        .hero-bg-blob {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(120px);
+            z-index: 0;
+            opacity: 0.3;
+            pointer-events: none;
+            transition: background 0.4s ease;
+        }
+
+        .blob-1 {
+            background: var(--blob-1);
+            top: -20%;
+            right: -10%;
+        }
+
+        .blob-2 {
+            background: var(--blob-2);
+            bottom: -20%;
+            left: 10%;
+            opacity: 0.2;
+        }
+
+        /* ============================================
+           SECTION COMMON
+           ============================================ */
+        .section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-start);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            line-height: 1.15;
+        }
+
+        .section-desc {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 520px;
+            line-height: 1.7;
+            margin-bottom: 3rem;
+        }
+
+        /* ============================================
+           ABOUT SECTION
+           ============================================ */
+        .about-section {
+            background: var(--bg-secondary);
+            transition: background 0.4s ease;
+        }
+
+        .about-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 0.9fr 1.1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image-wrapper {
+            position: relative;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            aspect-ratio: 3/4;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--radius-xl);
+            transition: transform 0.6s ease;
+        }
+
+        .about-image-wrapper:hover .about-image {
+            transform: scale(1.03);
+        }
+
+        .about-image-border {
+            position: absolute;
+            inset: -4px;
+            border-radius: 28px;
+            background: var(--accent-gradient);
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .about-text {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .about-stat-card {
+            padding: 1.25rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .about-stat-card:hover {
+            border-color: var(--border-accent);
+            box-shadow: var(--shadow-accent);
+            transform: translateY(-3px);
+        }
+
+        .about-stat-num {
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .about-stat-text {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-top: 0.25rem;
+        }
+
+        /* ============================================
+           SERVICES
+           ============================================ */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--accent-gradient);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .service-card:hover {
+            border-color: var(--border-accent);
+            box-shadow: var(--shadow-accent);
+            transform: translateY(-5px);
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.25rem;
+            font-size: 1.5rem;
+            background: var(--accent-gradient-soft);
+        }
+
+        .service-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .service-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .service-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 1rem;
+        }
+
+        .service-tag {
+            padding: 0.3rem 0.75rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* ============================================
+           PORTFOLIO
+           ============================================ */
+        .portfolio-section {
+            background: var(--bg-secondary);
+            transition: background 0.4s ease;
+        }
+
+        .portfolio-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+        }
+
+        .portfolio-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .portfolio-filters {
+            display: flex;
+            gap: 0.4rem;
+            background: var(--bg-primary);
+            padding: 0.3rem;
+            border-radius: var(--radius-full);
+            border: 1px solid var(--border-light);
+        }
+
+        .filter-btn {
+            padding: 0.45rem 1.1rem;
+            border: none;
+            background: transparent;
+            border-radius: var(--radius-full);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn.active {
+            background: var(--text-primary);
+            color: var(--text-inverse);
+            box-shadow: var(--shadow-sm);
+        }
+
+        [data-theme="dark"] .filter-btn.active {
+            background: var(--accent-start);
+            color: white;
+        }
+
+        .filter-btn:hover:not(.active) {
+            color: var(--text-primary);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .video-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+        }
+
+        .video-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--border-accent);
+        }
+
+        .video-thumb {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: linear-gradient(145deg, var(--border-light), var(--border-medium));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .video-thumb img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            transition: transform 0.4s ease;
+        }
+
+        .video-card:hover .video-thumb img {
+            transform: scale(1.05);
+        }
+
+        .video-thumb::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.25) 0%, transparent 50%);
+            z-index: 1;
+        }
+
+        .play-btn-overlay {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: var(--bg-secondary);
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+        }
+
+        .video-card:hover .play-btn-overlay {
+            background: var(--accent-start);
+            transform: scale(1.1);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .play-btn-overlay svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--text-primary);
+            margin-left: 2px;
+        }
+
+        .video-card:hover .play-btn-overlay svg {
+            fill: white;
+        }
+
+        .video-card-info {
+            padding: 1rem 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .video-card-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .video-card-corner-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            padding: 0.2rem 0.6rem;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-full);
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            backdrop-filter: blur(8px);
+            z-index: 2;
+            opacity: 0.9;
+        }
+
+        /* ============================================
+           PROCESS SECTION
+           ============================================ */
+        .process-section {
+            background: var(--bg-secondary);
+            transition: background 0.4s ease;
+        }
+
+        .process-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            position: relative;
+        }
+
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 12%;
+            right: 12%;
+            height: 2px;
+            background: var(--border-light);
+            z-index: 0;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-number {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: var(--bg-primary);
+            border: 2px solid var(--border-medium);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.25rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        .process-step:hover .step-number {
+            background: var(--accent-start);
+            color: white;
+            border-color: var(--accent-start);
+            box-shadow: var(--shadow-accent);
+        }
+
+        .step-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .process-step h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.4rem;
+        }
+
+        .process-step p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        /* ============================================
+           TESTIMONIALS
+           ============================================ */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .testimonial-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: 2rem;
+            transition: all 0.4s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--border-accent);
+            box-shadow: var(--shadow-accent);
+        }
+
+        .testimonial-stars {
+            color: #F59E0B;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+        }
+
+        .testimonial-text {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .testimonial-avatar {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: var(--accent-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-info h4 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .testimonial-info span {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        /* ============================================
+           FAQ
+           ============================================ */
+        .faq-section {
+            background: var(--bg-secondary);
+            transition: background 0.4s ease;
+        }
+
+        .faq-inner {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            margin-bottom: 0.75rem;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--border-accent);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.1rem 1.25rem;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .faq-question svg {
+            flex-shrink: 0;
+            color: var(--text-muted);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.open .faq-question svg {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+
+        .faq-answer-inner {
+            padding: 0 1.25rem 1.1rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           CONTACT
+           ============================================ */
+        .contact-section {
+            background: var(--bg-secondary);
+            transition: background 0.4s ease;
+        }
+
+        .contact-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .contact-channels {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .contact-channel {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 1.25rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .contact-channel:hover {
+            border-color: var(--border-accent);
+            box-shadow: var(--shadow-accent);
+            transform: translateX(4px);
+        }
+
+        .contact-channel-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .cci-whatsapp {
+            background: rgba(34, 197, 94, 0.12);
+            color: #16A34A;
+        }
+
+        .cci-email {
+            background: rgba(37, 99, 235, 0.12);
+            color: #2563EB;
+        }
+
+        .cci-instagram {
+            background: rgba(219, 39, 119, 0.12);
+            color: #DB2777;
+        }
+
+        .contact-channel-text h4 {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .contact-channel-text span {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.85rem 1.1rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: var(--accent-start);
+            box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.08);
+        }
+
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: var(--text-muted);
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .contact-form .btn-primary {
+            align-self: flex-start;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            padding: 0.9rem 1.8rem;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            font-size: 0.9rem;
+            z-index: 10002;
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            pointer-events: none;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        .toast.success {
+            background: #059669;
+            color: white;
+            box-shadow: 0 8px 30px rgba(5, 150, 105, 0.3);
+        }
+
+        .toast.error {
+            background: #DC2626;
+            color: white;
+            box-shadow: 0 8px 30px rgba(220, 38, 38, 0.3);
+        }
+
+        /* ============================================
+           FOOTER
+           ============================================ */
+        footer {
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 1px solid var(--border-light);
+            transition: border-color 0.4s ease;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .footer-brand-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: var(--accent-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 800;
+            font-size: 0.85rem;
+        }
+
+        .footer-brand-text {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 0.6rem;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-md);
+            background: var(--bg-primary);
+            border: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--accent-start);
+            color: white;
+            border-color: var(--accent-start);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .copyright {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        /* ============================================
+           WHATSAPP FLOAT / BACK TO TOP
+           ============================================ */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: #25D366;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 900;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float svg {
+            width: 26px;
+            height: 26px;
+            fill: white;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius-md);
+            background: var(--text-primary);
+            color: var(--text-inverse);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 900;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+        }
+
+        [data-theme="dark"] .back-to-top {
+            background: var(--accent-start);
+            color: white;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* ============================================
+           LIGHTBOX
+           ============================================ */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 10001;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(20px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+        }
+
+        .lightbox.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .lightbox-content {
+            position: relative;
+            width: 90vw;
+            max-width: 1000px;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            background: #000;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 80px rgba(0, 0, 0, 0.5);
+            transform: scale(0.9);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .lightbox.open .lightbox-content {
+            transform: scale(1);
+        }
+
+        .lightbox-content iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: -50px;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .lightbox-close:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: rotate(90deg);
+        }
+
+        .lightbox-spinner {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+        }
+
+        .lightbox-spinner::after {
+            content: '';
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 3px solid rgba(249, 115, 22, 0.2);
+            border-top-color: var(--accent-start);
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* ============================================
+           ANIMATIONS
+           ============================================ */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .animate-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .stagger-1 {
+            transition-delay: 0.1s;
+        }
+
+        .stagger-2 {
+            transition-delay: 0.2s;
+        }
+
+        .stagger-3 {
+            transition-delay: 0.3s;
+        }
+
+        /* ============================================
+           SCROLLBAR
+           ============================================ */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-medium);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        /* ============================================
+           RESPONSIVE
+           ============================================ */
+        @media (max-width: 1024px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-left {
+                order: 1;
+            }
+
+            .hero-right {
+                order: 0;
+                margin-bottom: 1rem;
+                min-height: 420px;
+            }
+
+            .hero-desc {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .phone-3d-scene {
+                width: 200px;
+                height: 410px;
+                transform: rotateY(0) rotateX(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 0.8rem 1.25rem;
+            }
+
+            .nav-links,
+            .nav-cta {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .mobile-nav {
+                display: flex;
+            }
+
+            .hero {
+                padding: 6rem 1.5rem 3rem;
+                min-height: auto;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+                letter-spacing: -1px;
+            }
+
+            .hero-desc {
+                font-size: 0.9rem;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
+            }
+
+            .hero-stat-number {
+                font-size: 1.2rem;
+            }
+
+            .hero-right {
+                min-height: 380px;
+            }
+
+            .phone-3d-scene {
+                width: 180px;
+                height: 370px;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .about-stats {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.6rem;
+            }
+
+            .about-stat-num {
+                font-size: 1.4rem;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+
+            .portfolio-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .process-steps {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+
+            .process-steps::before {
+                display: none;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 4rem 1.5rem;
+            }
+
+            .about-inner,
+            .portfolio-inner,
+            .process-inner,
+            .contact-inner {
+                padding: 4rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .lightbox-content {
+                width: 95vw;
+            }
+
+            .footer-top {
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .portfolio-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.75rem;
+            }
+
+            .video-card-info {
+                padding: 0.7rem 0.9rem;
+            }
+
+            .video-card-label {
+                font-size: 0.78rem;
+            }
+
+            .hero-stats {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .phone-3d-scene {
+                width: 160px;
+                height: 330px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <div class="page-loader" id="pageLoader" role="status" aria-label="Loading">
+        <div class="loader-logo">VINAY</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-left">
+            <a href="#home" class="nav-brand">
+                <div class="nav-brand-icon">VP</div>
+                <span class="nav-brand-text">Vinay Pankaj</span>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="theme-toggle-wrapper">
+                <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <circle cx="12" cy="12" r="5" />
+                    <path
+                        d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                </svg>
+                <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+                </svg>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"
+                    title="Toggle dark/light mode"></button>
+            </div>
+            <a href="#contact" class="nav-cta">
+                Start a project
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle navigation menu"
+            aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <ul class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#work" onclick="closeMenu()">Work</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#process" onclick="closeMenu()">Process</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg-blob blob-1"></div>
+        <div class="hero-bg-blob blob-2"></div>
+        <div class="hero-grid">
+            <div class="hero-left">
+                <div class="hero-badge animate-in">
+                    <span>Available for new projects</span>
+                </div>
+                <h1 class="animate-in" style="animation: fadeInUp 0.8s ease forwards; animation-delay: 0.1s;">
+                    Vinay Pankaj.<br>
+                    <span class="gradient-text">Story, cut into<br>motion.</span>
+                </h1>
+                <p class="hero-desc animate-in" style="animation: fadeInUp 0.8s ease forwards; animation-delay: 0.2s;">
+                    Video Editor & Motion Designer crafting viral videos, AI content, product explainers and cinematic
+                    social ads that hold attention past the first three seconds.
+                </p>
+                <div class="hero-buttons animate-in"
+                    style="animation: fadeInUp 0.8s ease forwards; animation-delay: 0.3s;">
+                    <a href="#work" class="btn btn-primary">
+                        See the work
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Start a project</a>
+                </div>
+                <div class="hero-stats animate-in"
+                    style="animation: fadeInUp 0.8s ease forwards; animation-delay: 0.4s;">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number"><span data-target="3">0</span>+</div>
+                        <div class="hero-stat-label">Years editing</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number"><span data-target="50">0</span>+</div>
+                        <div class="hero-stat-label">Projects done</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">M+</div>
+                        <div class="hero-stat-label">Views / reach</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right animate-in" style="animation: fadeInUp 0.8s ease forwards; animation-delay: 0.3s;"
+                id="heroRight">
+
+                <!-- 3D Phone -->
+                <div class="phone-3d-scene" id="phone3d">
+                    <div class="phone-glow"></div>
+                    <div class="phone-body">
+                        <div class="phone-btn-left"></div>
+                        <div class="phone-btn-left-2"></div>
+                        <div class="phone-btn-left-3"></div>
+                        <div class="phone-btn-right"></div>
+                        <div class="phone-dynamic-island"></div>
+                        <div class="phone-screen-wrap" id="phoneScreenWrap">
+                            <img src="instaLight.jpg" class="phone-img-light"
+                                alt="Vinay Pankaj Instagram showcase — light" loading="eager">
+                            <img src="instaDark.jpg" class="phone-img-dark"
+                                alt="Vinay Pankaj Instagram showcase — dark" loading="eager">
+                        </div>
+                        <div class="phone-home-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="about-inner">
+            <div class="about-grid">
+                <div class="about-image-wrapper animate-in">
+                    <div class="about-image-border"></div>
+                    <img class="about-image" src="C58C4F6E-1249-476E-8AA7-8A9E8D0D42AB.png"
+                        alt="Vinay Pankaj — I AM VINAY creative poster" loading="lazy">
+                </div>
+                <div class="about-right">
+                    <div class="section-label animate-in">ABOUT</div>
+                    <h2 class="section-title animate-in">Crafting visuals<br>that tell stories.</h2>
+                    <p class="about-text animate-in">
+                        I'm Vinay Pankaj — a freelance video editor, 2D animator and motion graphics designer with 3+
+                        years of experience. I specialize in crafting viral short-form content, cinematic YouTube
+                        videos, and eye-catching social media ads.
+                    </p>
+                    <p class="about-text animate-in" style="margin-bottom: 2rem;">
+                        From Reels to long-form, I bring your raw footage to life with precise cuts, professional color
+                        grading, dynamic transitions, and custom animations. Fast turnaround, no compromises on quality.
+                    </p>
+                    <div class="about-stats animate-in">
+                        <div class="about-stat-card">
+                            <div class="about-stat-num" data-target="3">0</div>
+                            <div class="about-stat-text">Years experience</div>
+                        </div>
+                        <div class="about-stat-card">
+                            <div class="about-stat-num" data-target="50">0</div>
+                            <div class="about-stat-text">Projects delivered</div>
+                        </div>
+                        <div class="about-stat-card">
+                            <div class="about-stat-num" data-target="20">0</div>
+                            <div class="about-stat-text">Happy clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="skills">
+        <div class="section-label animate-in">SERVICES</div>
+        <h2 class="section-title animate-in">What I do.</h2>
+        <p class="section-desc animate-in">Bringing creativity to life through motion, editing, and design.</p>
+        <div class="services-grid">
+            <div class="service-card animate-in">
+                <div class="service-icon">🎬</div>
+                <h3>Video Editing</h3>
+                <p>Professional video editing with precise cuts, color grading, and seamless transitions that tell
+                    compelling stories.</p>
+                <div class="service-tags"><span class="service-tag">Color Grading</span><span
+                        class="service-tag">Transitions</span><span class="service-tag">Sound Design</span></div>
+            </div>
+            <div class="service-card animate-in stagger-1">
+                <div class="service-icon">✨</div>
+                <h3>2D Animation</h3>
+                <p>Creating fluid 2D animations and motion graphics that add life and personality to every frame.</p>
+                <div class="service-tags"><span class="service-tag">Motion Graphics</span><span
+                        class="service-tag">Character Anim</span><span class="service-tag">Visual Effects</span></div>
+            </div>
+            <div class="service-card animate-in stagger-2">
+                <div class="service-icon">🎨</div>
+                <h3>Digital Art</h3>
+                <p>Illustrating stunning digital artwork and concept designs that serve as the foundation for visual
+                    projects.</p>
+                <div class="service-tags"><span class="service-tag">Concept Art</span><span
+                        class="service-tag">Illustration</span><span class="service-tag">Digital Painting</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio-section" id="work">
+        <div class="portfolio-inner">
+            <div class="portfolio-header">
+                <div>
+                    <div class="section-label animate-in">FEATURED WORK</div>
+                    <h2 class="section-title animate-in">Selected edits.</h2>
+                </div>
+                <div class="portfolio-filters animate-in">
+                    <button class="filter-btn active" data-filter="all">Every</button>
+                    <button class="filter-btn" data-filter="reels">Reels</button>
+                    <button class="filter-btn" data-filter="shorts">Shorts</button>
+                    <button class="filter-btn" data-filter="long">Long Form</button>
+                </div>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid"></div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process-section" id="process">
+        <div class="process-inner">
+            <div class="section-label animate-in">PROCESS</div>
+            <h2 class="section-title animate-in">From brief to delivery.</h2>
+            <p class="section-desc animate-in">A streamlined workflow to get your project done right.</p>
+            <div class="process-steps">
+                <div class="process-step animate-in">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">💬</div>
+                    <h3>Share Your Vision</h3>
+                    <p>Tell me about your project via the form or WhatsApp. Share footage, references, and ideas.</p>
+                </div>
+                <div class="process-step animate-in stagger-1">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">📋</div>
+                    <h3>Plan & Strategy</h3>
+                    <p>We align on the direction, mood, pacing, and timeline. I create a clear roadmap for your edit.
+                    </p>
+                </div>
+                <div class="process-step animate-in stagger-2">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">🎬</div>
+                    <h3>I Create</h3>
+                    <p>I edit, animate, color grade, and polish your content with professional quality and attention to
+                        detail.</p>
+                </div>
+                <div class="process-step animate-in stagger-3">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">✅</div>
+                    <h3>You Approve</h3>
+                    <p>Review the draft, request revisions if needed, and receive your final files ready to publish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonials">
+        <div class="section-label animate-in">TESTIMONIALS</div>
+        <h2 class="section-title animate-in">What clients say.</h2>
+        <p class="section-desc animate-in">Don't just take my word for it — hear from people I've worked with.</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card animate-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"Vinay delivered an incredible edit for my YouTube channel. The color
+                    grading and transitions were on another level. Fast turnaround and very responsive!"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">R</div>
+                    <div class="testimonial-info">
+                        <h4>Rahul S.</h4><span>YouTube Creator</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card animate-in stagger-1">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"The 2D animation he created for my brand intro was stunning. Professional
+                    quality at a fraction of agency prices. Highly recommend!"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">P</div>
+                    <div class="testimonial-info">
+                        <h4>Priya M.</h4><span>Brand Owner</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card animate-in stagger-2">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"I've been working with Vinay for 6 months on all my Instagram Reels. He
+                    understands trends, pacing, and what works on social media. Absolute gem!"</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">A</div>
+                    <div class="testimonial-info">
+                        <h4>Arjun K.</h4><span>Content Creator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 6rem 2rem 0;">
+            <div class="section-label animate-in">FAQ</div>
+            <h2 class="section-title animate-in">Frequently asked.</h2>
+            <p class="section-desc animate-in">Got questions? I've got answers.</p>
+        </div>
+        <div class="faq-inner" style="padding: 0 2rem 6rem;">
+            <div class="faq-item animate-in"><button class="faq-question" onclick="toggleFaq(this)"
+                    aria-expanded="false">What's your turnaround time?<svg width="18" height="18" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg></button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Depends on the project — short-form content is delivered in 48 hours,
+                        YouTube edits in 3 days, and full production projects in 5 days. Rush delivery is available for
+                        an additional fee.</div>
+                </div>
+            </div>
+            <div class="faq-item animate-in"><button class="faq-question" onclick="toggleFaq(this)"
+                    aria-expanded="false">How many revisions are included?<svg width="18" height="18" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg></button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Most projects include 2 revision rounds. For larger projects, I offer
+                        unlimited revisions. I want you to be 100% happy with the final result.</div>
+                </div>
+            </div>
+            <div class="faq-item animate-in"><button class="faq-question" onclick="toggleFaq(this)"
+                    aria-expanded="false">What file formats do you deliver?<svg width="18" height="18" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg></button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">I deliver in MP4 (H.264/H.265) by default, optimized for the platform
+                        you're posting on. I can also export in MOV, AVI, or any other format you need.</div>
+                </div>
+            </div>
+            <div class="faq-item animate-in"><button class="faq-question" onclick="toggleFaq(this)"
+                    aria-expanded="false">How do I send you my footage?<svg width="18" height="18" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg></button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">You can share footage via Google Drive, WeTransfer, Dropbox, or any
+                        cloud service. I'll send you a link or folder once we start the project.</div>
+                </div>
+            </div>
+            <div class="faq-item animate-in"><button class="faq-question" onclick="toggleFaq(this)"
+                    aria-expanded="false">Do you offer bulk or monthly packages?<svg width="18" height="18" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg></button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Yes! If you need regular content editing (e.g., weekly YouTube videos
+                        or daily Reels), I offer discounted monthly retainer packages. Reach out to discuss a custom
+                        plan.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="contact-inner">
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <div class="section-label animate-in">CONTACT</div>
+                    <h2 class="section-title animate-in">Have a project <span
+                            style="background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">in
+                            mind?</span></h2>
+                    <p class="section-desc animate-in" style="margin-bottom: 1.5rem;">Send a brief, or simply say hi.
+                        I'll get back within a few hours.</p>
+                    <div class="contact-channels animate-in">
+                        <a href="https://wa.me/917803060382?text=Hi!%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+                            class="contact-channel" target="_blank" rel="noopener noreferrer">
+                            <div class="contact-channel-icon cci-whatsapp"><svg width="20" height="20"
+                                    viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg></div>
+                            <div class="contact-channel-text">
+                                <h4>WhatsApp</h4><span>Quick response</span>
+                            </div>
+                        </a>
+                        <a href="mailto:vinaypankaj27@gmail.com" class="contact-channel">
+                            <div class="contact-channel-icon cci-email"><svg width="20" height="20" fill="none"
+                                    stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg></div>
+                            <div class="contact-channel-text">
+                                <h4>Email</h4><span>vinaypankaj27@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/vinay_.404?utm_source=qr&igsh=MzdtcjM5aDVyZTRo" class="contact-channel" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="contact-channel-icon cci-instagram"><svg width="20" height="20"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                                </svg></div>
+                            <div class="contact-channel-text">
+                                <h4>Instagram</h4><span>DM me</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xzzzzzzzz" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required aria-label="Your name">
+                        <input type="email" name="email" placeholder="Your Email" required aria-label="Your email">
+                        <textarea name="message"
+                            placeholder="Tell me about your project — what type of video, timeline, budget..."
+                            aria-label="Project details"></textarea>
+                        <input type="hidden" name="_subject" value="New Portfolio Inquiry from Website">
+                        <button type="submit" class="btn btn-primary" id="submitBtn"><span id="submitText">Send
+                                Message</span><svg width="16" height="16" fill="none" stroke="currentColor"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                            </svg></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-brand-icon">VP</div><span class="footer-brand-text">Vinay Pankaj</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/vinay_.404?utm_source=qr&igsh=MzdtcjM5aDVyZTRo" class="social-link" title="Instagram" target="_blank"
+                        rel="noopener noreferrer" aria-label="Follow on Instagram"><svg width="18" height="18"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg></a>
+
+                    <a href="mailto:vinaypankaj27@gmail.com" class="social-link" title="Email" aria-label="Send email"><svg
+                            width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 VP Creatives. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/917803060382?text=Hi!%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp"
+        aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg></a>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Video player">
+        <div class="lightbox-content" id="lightboxContent">
+            <button class="lightbox-close" id="lightboxClose" aria-label="Close video player"><svg width="18"
+                    height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg></button>
+            <div class="lightbox-spinner" id="lightboxSpinner"></div>
+            <iframe id="lightboxIframe" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()" title="Back to top" aria-label="Back to top"><svg
+            width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg></button>
+
+    <script>
+        /* ============================================
+           THEME TOGGLE
+           ============================================ */
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('vinay-theme') || 'light';
+        html.setAttribute('data-theme', savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const current = html.getAttribute('data-theme');
+            const next = current === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('vinay-theme', next);
+            // Reset phone screen scroll position on theme switch
+            const screenWrap = document.getElementById('phoneScreenWrap');
+            if (screenWrap) screenWrap.scrollTop = 0;
+        });
+
+        /* ============================================
+           PAGE LOADER
+           ============================================ */
+        window.addEventListener('load', () => {
+            setTimeout(() => document.getElementById('pageLoader').classList.add('hidden'), 600);
+        });
+
+        /* ============================================
+           MOBILE MENU
+           ============================================ */
+        function toggleMenu() {
+            const hamburger = document.getElementById('hamburger');
+            const mobileNav = document.getElementById('mobileNav');
+            hamburger.classList.toggle('active');
+            mobileNav.classList.toggle('open');
+            const isOpen = mobileNav.classList.contains('open');
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+            hamburger.setAttribute('aria-expanded', isOpen);
+        }
+        function closeMenu() {
+            document.getElementById('hamburger').classList.remove('active');
+            document.getElementById('mobileNav').classList.remove('open');
+            document.body.style.overflow = '';
+            document.getElementById('hamburger').setAttribute('aria-expanded', 'false');
+        }
+
+
+
+        /* ============================================
+           3D PHONE TILT — REALTIME MOUSE TRACKING
+           ============================================ */
+        const phone3d = document.getElementById('phone3d');
+        let tiltEnabled = !window.matchMedia('(max-width: 1024px)').matches;
+        let tiltX = -8, tiltY = 4;
+        let targetTiltX = -8, targetTiltY = 4;
+        let tiltRaf;
+
+        function updateTilt() {
+            // Smooth lerp for buttery realtime feel
+            tiltX += (targetTiltX - tiltX) * 0.15;
+            tiltY += (targetTiltY - tiltY) * 0.15;
+            phone3d.style.transform = `rotateY(${tiltX}deg) rotateX(${tiltY}deg)`;
+            tiltRaf = requestAnimationFrame(updateTilt);
+        }
+        if (tiltEnabled) {
+            tiltRaf = requestAnimationFrame(updateTilt);
+            document.addEventListener('mousemove', (e) => {
+                if (!tiltEnabled) return;
+                const x = (e.clientX / window.innerWidth) - 0.5; // -0.5 to 0.5
+                const y = (e.clientY / window.innerHeight) - 0.5;
+                targetTiltX = x * 30;  // max ±15deg
+                targetTiltY = -y * 20; // max ±10deg
+            });
+        }
+
+        /* ============================================
+           PHONE SCREEN SCROLL ON HOVER
+           ============================================ */
+        (function initPhoneScroll() {
+            const screenWrap = document.getElementById('phoneScreenWrap');
+            if (!screenWrap) return;
+            let scrollY = 0;
+            let isHovering = false;
+
+            // Get the currently visible image
+            function getActiveImg() {
+                const theme = html.getAttribute('data-theme');
+                return screenWrap.querySelector(theme === 'dark' ? '.phone-img-dark' : '.phone-img-light');
+            }
+
+            screenWrap.addEventListener('mouseenter', () => { isHovering = true; });
+            screenWrap.addEventListener('mouseleave', () => {
+                isHovering = false;
+                // Smoothly reset scroll to top
+                scrollY = 0;
+                const img = getActiveImg();
+                if (img) img.style.transform = 'translateY(0)';
+            });
+
+            screenWrap.addEventListener('wheel', (e) => {
+                if (!isHovering) return;
+                e.preventDefault();
+                const img = getActiveImg();
+                if (!img) return;
+                const maxScroll = Math.max(0, img.naturalHeight * (screenWrap.offsetWidth / img.naturalWidth) - screenWrap.offsetHeight);
+                scrollY = Math.max(0, Math.min(scrollY + e.deltaY * 0.8, maxScroll));
+                img.style.transform = `translateY(-${scrollY}px)`;
+            }, { passive: false });
+        })();
+
+        /* ============================================
+           ANIMATED COUNTER
+           ============================================ */
+        function animateCounter(el) {
+            const target = parseInt(el.getAttribute('data-target'));
+            if (isNaN(target)) return;
+            let current = 0;
+            const increment = target / 40;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) { current = target; clearInterval(timer); }
+                el.textContent = Math.floor(current) + '+';
+            }, 40);
+        }
+        let countersStarted = false;
+
+        /* ============================================
+           FAQ TOGGLE
+           ============================================ */
+        function toggleFaq(btn) {
+            const item = btn.parentElement;
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(i => {
+                i.classList.remove('open');
+                i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+            });
+            if (!isOpen) {
+                item.classList.add('open');
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        /* ============================================
+           PORTFOLIO FILTERS
+           ============================================ */
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                document.querySelectorAll('.video-card').forEach(card => {
+                    card.style.display = (filter === 'all' || card.dataset.category === filter) ? '' : 'none';
+                });
+            });
+        });
+
+        /* ============================================
+           PORTFOLIO GRID
+           ============================================ */
+        const videoProjects = [
+            { id: 'v1', driveId: '1ZWaOtoXmRl5T-NuKWVZas_QcwGKFrakC', aspect: '16/9', label: 'Reel — 01', category: 'reels' },
+            { id: 'v2', driveId: '1sIVr0S31KZRVXB25wF5HWOJGig2OAAtn', aspect: '9/16', label: 'Reel — 02', category: 'reels' },
+            { id: 'v3', driveId: '1BE4r67AmNAIbPzR_iIffJ4QVdDqY-meg', aspect: '16/9', label: 'Motion Graphics', category: 'long' },
+            { id: 'v4', driveId: '1-hYtIGpXnRezZlHh9ZGUb_vlYQNLIOvZ', aspect: '2.39/1', label: 'Cinematic Edit', category: 'long' },
+            { id: 'v5', driveId: '1Rl2ikYlkWaZzz82P8Ja05HfSTDrpArYm', aspect: '9/16', label: 'Short — 01', category: 'shorts' },
+            { id: 'v6', driveId: '1kdqwhFLV7VR7Wsz2qT0EGexd-_KLt3J7', aspect: '1/1', label: 'Social Post', category: 'reels' },
+            { id: 'v7', driveId: '1iuXVea5sm0k6Ti4PcgtMAmZQI-80TrhC', aspect: '16/9', label: 'YouTube Edit', category: 'long' },
+            { id: 'v8', driveId: '1tUVltRyD7Ihfb_Urg_cokDuK8n2d8P_a', aspect: '4/5', label: 'Reel — 03', category: 'reels' },
+            { id: 'v9', driveId: '1xvzXd2nygf6LPllCnWRfGEys-LIs4ZOM', aspect: '16/9', label: 'Animation', category: 'long' },
+            { id: 'v10', driveId: '1O0KWzjMwcnomgPU5FB0DkpQ9slCVyqER', aspect: '9/16', label: 'Short — 02', category: 'shorts' },
+            { id: 'v11', driveId: '1dVE_a9zh03DVWfcyVzVSwwXAOPTJ9h_A', aspect: '16/9', label: 'Color Grade', category: 'long' },
+            { id: 'v12', driveId: '1Z0j0gxp2l3tyOziXsFlKpVS6GwITpP0o', aspect: '16/9', label: 'Visual Effects', category: 'long' }
+        ];
+
+        const grid = document.getElementById('portfolioGrid');
+        videoProjects.forEach((project, index) => {
+            const card = document.createElement('div');
+            card.className = 'video-card animate-in';
+            card.dataset.category = project.category;
+            card.style.transitionDelay = `${Math.min(index * 0.06, 0.4)}s`;
+            card.setAttribute('role', 'button');
+            card.setAttribute('tabindex', '0');
+            card.setAttribute('aria-label', `Play ${project.label} video`);
+            const typeMap = { reels: 'Reel', shorts: 'Short', long: 'Long Form' };
+            const type = typeMap[project.category] || 'Video';
+            const thumbUrl = `https://drive.google.com/thumbnail?id=${project.driveId}&sz=w640`;
+            card.innerHTML = `<div class="video-thumb"><img src="${thumbUrl}" alt="${project.label} thumbnail" loading="lazy"><div class="play-btn-overlay"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div><div class="video-card-corner-badge">${type}</div></div><div class="video-card-info"><span class="video-card-label">${project.label}</span></div>`;
+            card.addEventListener('click', () => openLightbox(project));
+            card.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(project); } });
+            grid.appendChild(card);
+        });
+
+        /* ============================================
+           LIGHTBOX
+           ============================================ */
+        const lightbox = document.getElementById('lightbox');
+        const lightboxContent = document.getElementById('lightboxContent');
+        const lightboxIframe = document.getElementById('lightboxIframe');
+        const lightboxSpinner = document.getElementById('lightboxSpinner');
+        const lightboxClose = document.getElementById('lightboxClose');
+
+        function openLightbox(project) {
+            const ar = project.aspect.split('/');
+            const ratio = parseFloat(ar[0]) / parseFloat(ar[1]);
+            const maxW = Math.min(window.innerWidth * 0.9, 1000);
+            const h = maxW / ratio;
+            const maxH = window.innerHeight * 0.8;
+            const finalH = Math.min(h, maxH);
+            const finalW = finalH * ratio;
+            lightboxContent.style.width = finalW + 'px';
+            lightboxContent.style.maxWidth = '90vw';
+            lightboxIframe.style.height = finalH + 'px';
+            lightboxSpinner.style.display = 'flex';
+            lightboxIframe.style.opacity = '0';
+            lightboxIframe.src = `https://drive.google.com/file/d/${project.driveId}/preview`;
+            lightboxIframe.onload = () => { lightboxSpinner.style.display = 'none'; lightboxIframe.style.opacity = '1'; };
+            lightbox.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            lightbox.classList.remove('open');
+            document.body.style.overflow = '';
+            setTimeout(() => { lightboxIframe.src = ''; }, 400);
+        }
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
+
+        /* ============================================
+           INTERSECTION OBSERVER
+           ============================================ */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    if (!countersStarted && (entry.target.classList.contains('about-stats') || entry.target.closest('.about-stats'))) {
+                        countersStarted = true;
+                        document.querySelectorAll('.about-stat-num[data-target]').forEach(animateCounter);
+                    }
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        document.querySelectorAll('.animate-in').forEach(el => observer.observe(el));
+
+        setTimeout(() => {
+            document.querySelectorAll('.hero-stat-number span[data-target]').forEach(animateCounter);
+        }, 1200);
+
+        /* ============================================
+           SMOOTH SCROLL
+           ============================================ */
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        /* ============================================
+           SCROLL EVENTS
+           ============================================ */
+        const backToTopBtn = document.getElementById('backToTop');
+        const scrollProgress = document.getElementById('scrollProgress');
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            const scrollY = window.scrollY;
+            nav.style.boxShadow = scrollY > 50 ? '0 1px 10px rgba(0,0,0,0.06)' : 'none';
+            if (scrollY > 500) backToTopBtn.classList.add('visible');
+            else backToTopBtn.classList.remove('visible');
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            scrollProgress.style.width = (docHeight > 0 ? (scrollY / docHeight) * 100 : 0) + '%';
+        }, { passive: true });
+        function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+        /* ============================================
+           CONTACT FORM
+           ============================================ */
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const submitText = document.getElementById('submitText');
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            submitBtn.disabled = true;
+            submitText.textContent = 'Sending...';
+            try {
+                const response = await fetch(contactForm.action, { method: 'POST', body: new FormData(contactForm), headers: { 'Accept': 'application/json' } });
+                if (response.ok) { showToast('Message sent successfully! I\'ll get back to you soon.', 'success'); contactForm.reset(); }
+                else { showToast('Something went wrong. Please try again or reach out on WhatsApp.', 'error'); }
+            } catch (err) { showToast('Network error. Please check your connection and try again.', 'error'); }
+            submitBtn.disabled = false;
+            submitText.textContent = 'Send Message';
+        });
+        function showToast(message, type) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type} show`;
+            setTimeout(() => toast.classList.remove('show'), 4000);
+        }
+    </script>
+</body>
+
+</html>
